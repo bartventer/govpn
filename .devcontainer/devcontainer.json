@@ -1,0 +1,4 @@
+{
+    "name": "GoVPN Development Container",
+    "image": "ghcr.io/bartventer/govpn/devcontainer:latest"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "GoVPN Development Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.vscode-github-actions"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/bartventer/arch-devcontainer-features/go": {
+            "golangciLintVersion": "v1.59.0",
+            "installCobraCli": true,
+            "installGoReleaser": true
+        },
+        "ghcr.io/bartventer/arch-devcontainer-features/docker-in-docker": {}
+    }
+}
